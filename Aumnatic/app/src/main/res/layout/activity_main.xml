@@ -1,44 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login page"
-        android:padding="16dp"
-        android:layout_margin="50dp"
-        />
-    <EditText
-        android:id="@+id/enterEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter email"
-        android:paddingLeft="30dp"
-        android:inputType="textEmailAddress"
-        />
-    <EditText
-        android:id="@+id/enterPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:layout_marginLeft="30dp"
-        android:inputType="textPassword"
-        />
+        android:layout_height="300dp" />
+
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/capButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="100dp"
-        android:background="@drawable/ic_launcher_foreground"
-        android:text="Login"
+        android:text="Capture and Save" />
 
-        />
-
+    <Button
+        android:id="@+id/flipButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flip Camera" />
 </LinearLayout>
