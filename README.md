@@ -18,17 +18,7 @@ This is a simple Android application developed in **Java (Android Studio)** that
 - **Platform:** Android SDK  
 
 ---
-
-## 📷 Screenshots  
-
-### 1. Camera View (after clicking camera button)  
-![Camera View](./screenshots/camera_view.png)  
-
-### 2. Capturing a Picture  
-![Capture](./screenshots/capture.png)  
-
-### 3. Saved Image in Gallery  
-![Gallery](./screenshots/gallery.png)  
+ 
 
 ---
 
